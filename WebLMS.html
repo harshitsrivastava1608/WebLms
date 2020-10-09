@@ -9,6 +9,11 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
+            .row{
+                
+               background: #84A59D;
+            
+            }
             .line{
                 align-content: center;
                 align-items: center;
@@ -16,27 +21,26 @@
                 text-align: center;
             }
             .flower{
-                background-color:rgb(182, 141, 201);
+                background-color:#F5CAC3;
                 margin-bottom: 0px;
             }
             .button {
-                border-radius: 5px;
+                border-radius: 10px;
                  transition-duration: 0.4s;
                  align-self: auto;
                  font-size: 20px;
                  padding: 10px;
-                 color:#a7dda9;
+                 color:#84A59D;
                  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 
                 }
-            .reg{
-                color:cornflowerblue;
-    
-                }
-               
+            
+               .navbar-brand{
+                   padding: 10px;;
+               }
 
             .button:hover {
-                background-color: #81bd83; /* Green */
+                background-color: #F5CAC3; /* Green */
                 color: white;
                     }
                  
@@ -49,24 +53,26 @@
                  transition-duration: 0.4s;
                  align-self: auto;
                  font-size: 15px;
-                 color:rgb(226, 140, 183);
+                 color:#84A59D;
                  box-shadow: 0 8px 16px 0 rgba(214, 39, 39, 0.2), 0 6px 20px 0 rgba(136, 40, 201, 0.19);
 
                    }
                    .dept:hover {
-                background-color:  rgb(226, 140, 183);/* Green */
-                color: white;
+                    background-color:  #F5CAC3;/* Green */
+                    color: white;
                     }
                     .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin-bottom: 20px;
-}
-
-/* Add a hover effect if you want */
+                        padding: 20px;
+                        font-size: 30px;
+                        width: 50px;
+                        text-align: center;
+                        text-decoration: none;
+                        margin-bottom: 20px;
+                        }
+                        .foot{
+                            padding: 10px;
+                        }
+                    /* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
 }
@@ -105,6 +111,7 @@
     align-content: center;
 
 }
+
         </style>
     </head>
     <body>
@@ -117,13 +124,14 @@
                         <span class="icon-bar"></span>
                     </button>
                     
-                    <a href="#" class="navbar-brand"><img src="logo.jpg" width="60px" height="60px align-self=center"></a>
+                    <a href="#" class="navbar-brand"><img src="logo.jpg"  width="60px" height="60px align-self=center"></a>
                     
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav ">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="#"><button class="button"><span class="glyphicon glyphicon-home"></span> Home</button></a></li> 
+                        <li><a href="#"><button class="button"><span class="glyphicon glyphicon-list-alt"></span> About</button></a></li> 
+                        
                        
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
@@ -140,7 +148,7 @@
                 </div>
                 <div>
                     <div class="row">
-                        <div class="col-md-6 col-sm-6 column_style">
+                        <div class="col-md-4 col-sm-4 column_style">
                             <a href="#" class="dept">
                             <div class="thumbnail">
                             <img src="final cse-01.png" alt="CSE" class="img-rounded img-thumbnail">
@@ -151,10 +159,10 @@
                             </div>
                         </a>
                         </div>
-                        <div class="col-md-6 col-sm-6 column_style">
+                        <div class="col-md-4 col-sm-4 column_style">
                             <a href="#" class="dept">
                         <div class="thumbnail">
-                            <img src="ECE-01.png" alt="CSE" class="img-rounded img-thumbnail">
+                            <img src="eee.jpeg" alt="CSE" class="img-rounded img-thumbnail">
                             <div class="caption dept">
                             </br>
                                 <button class="button btn dept">Electronics and Communication Engineering</button>
@@ -162,12 +170,10 @@
                             </div>
                             </a>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 column_style">
+                        <div class="col-md-4 col-sm-4 column_style">
                             <a href="#" class="dept">
                         <div class="thumbnail">
-                            <img src="lms4.png" alt="CSE" class="img-rounded img-thumbnail">
+                            <img src="eee.jpeg" alt="CSE" class="img-rounded img-thumbnail">
                             <div class="caption dept">
                             </br>
                                 <button class="button btn dept">Electrical and Electronics Engineering</button>
@@ -175,23 +181,13 @@
                         </div>
                             </a>
                         </div>
-                        <div class="col-md-6 col-sm-6 column_style">
-                            <a href="#" class="dept">
-                            <div class="thumbnail">
-                            <img src="lms5.png" alt="CSE" class="img-rounded img-thumbnail">
-                            <div class="caption dept">
-                            </br>
-                                <button class="button btn dept">Mechanical Engineering</button>
-                            </div>
-                            </div>
-                        </a>
-                        </div>
                     </div>
+                    
                     <div class="row">
                         <a href="#" class="dept">
                         <div class="col-md-4 col-sm-4 column_style">
                             <div class="thumbnail">
-                            <img src="it-01.png" alt="CSE" class="img-rounded img-thumbnail">
+                            <img src="it final-01.png" alt="CSE" class="img-rounded img-thumbnail">
                             <div class="caption dept">
                             </br>
                                 <button class="button btn dept">Information Technology</button>
@@ -202,7 +198,7 @@
                         <div class="col-md-4 col-sm-4 column_style">
                             <a href="#" class="dept">
                             <div class="thumbnail">
-                            <img src="lms5.png" alt="CSE" class="img-rounded img-thumbnail">
+                            <img src="ME.jpg.jpeg" alt="CSE" class="img-rounded img-thumbnail">
                             <div class="caption dept">
                             </br>
                                 <button class="button btn dept">Mechanical Engineering</button>
@@ -217,6 +213,41 @@
                             <div class="caption dept">
                             </br>
                                 <button class="button btn dept">Civil Engineering</button>
+                            </div>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <a href="#" class="dept">
+                        <div class="col-md-4 col-sm-4 column_style">
+                            <div class="thumbnail">
+                            <img src="it final-01.png" alt="CSE" class="img-rounded img-thumbnail">
+                            <div class="caption dept">
+                            </br>
+                                <button class="button btn dept">M.B.A.</button>
+                            </div>
+                            </div>
+                        </div>
+                        </a>
+                        <div class="col-md-4 col-sm-4 column_style">
+                            <a href="#" class="dept">
+                            <div class="thumbnail">
+                            <img src="pharmacy.jpeg" alt="CSE" class="img-rounded img-thumbnail">
+                            <div class="caption dept">
+                            </br>
+                                <button class="button btn dept">Pharmacy</button>
+                            </div>
+                            </div>
+                        </a>
+                        </div>
+                        <div class="col-md-4 col-sm-4 column_style">
+                            <a href="#" class="dept">
+                        <div class="thumbnail">
+                            <img src="civil-01.png" alt="CSE" class="img-rounded img-thumbnail">
+                            <div class="caption dept">
+                            </br>
+                                <button class="button btn dept">Seminar Hall</button>
                             </div>
                             </div>
                             </a>
@@ -268,7 +299,7 @@
             
             </p>
     </div>
-    <div class="row">
+    <div class="row foot">
         <div class="col-md-6 col-xs-6">
     <a href="https://www.facebook.com/pg/rkgitgzb" class="fa fa-facebook"></a>
     <a href="https://www.instagram.com/rkgit_"class="fa fa-instagram"></a>
